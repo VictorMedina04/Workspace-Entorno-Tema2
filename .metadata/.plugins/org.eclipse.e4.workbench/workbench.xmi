@@ -10,7 +10,6 @@
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1701019378988"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_kKLggoeeEe6FtbqFeeRk5A" selectedElement="_kKLgg4eeEe6FtbqFeeRk5A" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_kKLgg4eeEe6FtbqFeeRk5A" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_ANVTIIyKEe6crv9yjeDuVQ">
         <children xsi:type="advanced:Perspective" xmi:id="_kKLghIeeEe6FtbqFeeRk5A" elementId="org.eclipse.jst.j2ee.J2EEPerspective" selectedElement="_kKLghYeeEe6FtbqFeeRk5A" label="Java EE" iconURI="platform:/plugin/org.eclipse.jst.j2ee.ui/icons/full/cview16/j2ee_perspective.gif">
@@ -475,15 +474,8 @@
           <tags>persp.viewSC:org.eclipse.ui.views.ProblemView</tags>
           <tags>persp.viewSC:org.eclipse.ui.navigator.ProjectExplorer</tags>
           <tags>persp.viewSC:org.eclipse.pde.runtime.LogView</tags>
-          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.debug.ui/icons/full/onboarding_debug_persp.png</tags>
-          <tags>persp.editorOnboardingText:Go hunt your bugs here.</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
           <tags>persp.showIn:org.eclipse.ui.navigator.ProjectExplorer</tags>
-          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
-          <tags>persp.editorOnboardingCommand:Step Into$$$F5</tags>
-          <tags>persp.editorOnboardingCommand:Step Over$$$F6</tags>
-          <tags>persp.editorOnboardingCommand:Step Return$$$F7</tags>
-          <tags>persp.editorOnboardingCommand:Resume$$$F8</tags>
           <tags>persp.perspSC:org.eclipse.wst.xml.ui.perspective</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaPerspective</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaBrowsingPerspective</tags>
@@ -500,6 +492,13 @@
           <tags>persp.viewSC:org.eclipse.datatools.sqltools.result.resultView</tags>
           <tags>persp.perspSC:org.eclipse.datatools.sqltools.sqleditor.perspectives.EditorPerspective</tags>
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
+          <tags>persp.editorOnboardingImageUri:platform:/plugin/org.eclipse.debug.ui/icons/full/onboarding_debug_persp.png</tags>
+          <tags>persp.editorOnboardingText:Go hunt your bugs here.</tags>
+          <tags>persp.editorOnboardingCommand:Find Actions$$$Ctrl+3</tags>
+          <tags>persp.editorOnboardingCommand:Step Into$$$F5</tags>
+          <tags>persp.editorOnboardingCommand:Step Over$$$F6</tags>
+          <tags>persp.editorOnboardingCommand:Step Return$$$F7</tags>
+          <tags>persp.editorOnboardingCommand:Resume$$$F8</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_ANVTIYyKEe6crv9yjeDuVQ" selectedElement="_ANVTKYyKEe6crv9yjeDuVQ" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_ANVTIoyKEe6crv9yjeDuVQ" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="2500" selectedElement="_ANVTI4yKEe6crv9yjeDuVQ">
               <tags>org.eclipse.e4.primaryNavigationStack</tags>
@@ -1023,7 +1022,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kKMvJIeeEe6FtbqFeeRk5A" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pYIkYIyGEe6crv9yjeDuVQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_kKOnk4eeEe6FtbqFeeRk5A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_alPPYI1YEe6ZLLWOYzIGbA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_kKOnk4eeEe6FtbqFeeRk5A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kKMvMYeeEe6FtbqFeeRk5A" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1031,8 +1030,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kKMvM4eeEe6FtbqFeeRk5A" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pYJygIyGEe6crv9yjeDuVQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_kKOlfIeeEe6FtbqFeeRk5A"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pYJygYyGEe6crv9yjeDuVQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_kKOmIYeeEe6FtbqFeeRk5A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_alQdgI1YEe6ZLLWOYzIGbA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_kKOlfIeeEe6FtbqFeeRk5A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_alQdgY1YEe6ZLLWOYzIGbA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_kKOmIYeeEe6FtbqFeeRk5A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kKMvN4eeEe6FtbqFeeRk5A" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1065,7 +1064,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kKMvmoeeEe6FtbqFeeRk5A" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_pYKZkIyGEe6crv9yjeDuVQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_kKOnNoeeEe6FtbqFeeRk5A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_alREkY1YEe6ZLLWOYzIGbA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_kKOnNoeeEe6FtbqFeeRk5A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kKMvpoeeEe6FtbqFeeRk5A" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
