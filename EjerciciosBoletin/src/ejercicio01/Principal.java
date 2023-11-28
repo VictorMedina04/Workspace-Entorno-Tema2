@@ -7,7 +7,7 @@ public class Principal {
 		{
 			for(int j = 0; j < 10; j++)
 			{
-				System.out.printf("%2d ", a[i][j]);
+ 				System.out.printf("%2d ",a[i][j]);
 				}
 			System.out.println();
 			}
